@@ -17,7 +17,7 @@ import {
     AlertDialogTrigger,
   } from "@/components/ui/alert-dialog"
 import Link from "next/link"
-import Signup from "./components/signup"
+import Signup from "./components/Signup.jsx"
 // import Signupa from "./components/signup"
 
 export default function SignupPage() {
