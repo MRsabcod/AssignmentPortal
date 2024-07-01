@@ -24,7 +24,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover"
 import { Calendar } from "@/components/ui/calendar"
-import PlusIcon from "./techers-portal"
+import PlusIcon from "@/app/teacherPortal/page.js"
 
 export function AssignmentTeacherModal() {
   return (
