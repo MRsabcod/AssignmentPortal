@@ -32,7 +32,7 @@ import { Input } from "@/components/ui/input"
 import { AssignmentModal } from "@/components/component/assignment-modal"
 import { AssignmentTeacherModal } from "@/components/component/assignment-teacher-modal"
 
-export default function  techersPortal() {
+export default function  TeachersPortal() {
   const [activeTab, setActiveTab] = useState("progress")
   const [activeAssignmentTab, setActiveAssignmentTab] = useState("current")
   const [viewingAssignment, setViewingAssignment] = useState(null)

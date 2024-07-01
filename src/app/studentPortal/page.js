@@ -31,7 +31,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table"
 import { AssignmentModal } from "@/components/component/assignment-modal"
 
-export default function assignmentPortal() {
+export default function StudentPortal() {
     const [activeTab, setActiveTab] = useState("progress")
     const [assignmentTab, setAssignmentTab] = useState("current")
     const [open, setOpen] = useState(false)
